@@ -1,1 +1,22 @@
 /* give your assignment a fun background color */
+body {
+    color:skyblue;
+    background-color: steelblue;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clickMe{
+    background-color: white;
+    font-size: larger;
+    height: 200px;
+    width: 200px;
+    transition: transform 1s ease;
+    margin:100px;
+    border-radius: 20px;
+    text-align: center;
+}
+.clickMe:active{
+    transform:scale(3) rotate(.5turn);
+}
